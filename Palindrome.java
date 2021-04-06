@@ -17,6 +17,7 @@ public class Palindrome{
 		for (int i=s.length(); i>0; i--) {
 			revstr+=s.charAt(i-1);
 		}
+		
 		return revstr;//Возврат слова в обратном порядке
 	}
 	public static boolean isPalindrome(String s)// Проверка слова на палиндромность
