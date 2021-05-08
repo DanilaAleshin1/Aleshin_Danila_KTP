@@ -24,7 +24,7 @@ public class FractalExplorer
 			public void actionPerformed(ActionEvent e) 
 			{
             	fractal.getInitialRange(range);
-            	//drawFractal();
+            	drawFractal();
         	}
 		});
 		image.addMouseListener(new MouseAdapter(){
